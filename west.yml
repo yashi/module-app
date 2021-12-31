@@ -12,5 +12,10 @@ manifest:
       revision: b0612c97c1401feeb4160add6462c3627fe90fc7
       path: modules/hal/cmsis
 
+    - name: module-sample
+      url: https://github.com/yashi/module-sample
+      revision: main
+      path: modules/lib/sample
+
   self:
     path: module-app

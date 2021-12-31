@@ -1,8 +1,9 @@
 #include <zephyr.h>
+#include <libsample.h>
 
 void main(void)
 {
-	printk("Hello Modules\n");
+	printk("Hello libsample %s\n", LIBSAMPLE_VERSION);
 
 	return;
 }
